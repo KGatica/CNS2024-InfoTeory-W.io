@@ -3,17 +3,20 @@
 <html>
 <head>
 <style>
-        .spaced-link {
-            margin-right: 5px; /* Adds 15px space on the right */
-            margin-left: 5px;  /* Adds 0px space on the left */
-            padding: 8px 12px;   /* Adds space inside the border */
-            border: 1px solid #ccc; /* Defines a border around the link */
-            background-color: #f9f9f9; /* Sets a background color */
-            text-decoration: none; /* Removes underline from links */
-            color: #333; /* Sets the text color */
-            border-radius: 4px; /* Optional: rounds the corners of the border */
-            display: inline-block; /* Ensures padding and border are displayed correctly */
-        }
+.spaced-link {
+    margin-right: 15px; /* Adds 15px space on the right */
+    margin-left: 0px;  /* Adds 0px space on the left */
+    font-size: 24px; /* Sets the font size to 24 pixels */
+}
+.spaced-link:last-child {
+    margin-right: 0; /* Removes the right margin on the last link */
+}
+
+@media (max-width: 600px) {
+    .spaced-link {
+        font-size: 18px; /* Smaller font size for mobile devices */
+    }
+}
 
     </style>
 <meta name="twitter:creator" content="@jlizier"/> 
@@ -24,7 +27,7 @@
 <body>
 	<h1><a href="http://www.cnsorg.org/cns-2024">CNS*2024</a> Workshop on Methods of Information Theory in Computational Neuroscience</h1>
 
-<img src="./images/InfoTheoryInBrain-whiteBackground.png" alt="Information in the brain. Modified from an original credited to dow_at_uoregon.edu (distributed without restrictions)" title="Information in the brain. Modified from an original credited to dow_at_uoregon.edu (distributed without restrictions)" height="350" style="float:right;margin:15px 5px 5px 30px"/>
+<img src="./images/InfoTheoryInBrain-whiteBackground.png" alt="Information in the brain. Modified from an original credited to dow_at_uoregon.edu (distributed without restrictions)" title="Information in the brain. Modified from an original credited to dow_at_uoregon.edu (distributed without restrictions)" height="250" style="float:right;margin:15px 5px 5px 30px"/>
 
 <h2>Aims and topics</h2>
 
