@@ -16,21 +16,28 @@ body {
 If you have a header, you might want to give it a background color, 
 change its text color, and maybe add some padding.
 */
+
+/*
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
   }
+*/
 /*
 Images
 */
+
+/*
 img {
     width: 200px;
     border-radius: 10px;
     float: left;
     margin-right: 10px;
 }
+
+*/
 /*
 Links
 */
