@@ -93,6 +93,8 @@ Responsive Design (Optional)
 You might want to make your webpage look good on both desktops and mobile devices. 
 You can achieve this by using media queries to apply different styles based on the screen size.
 */  
+
+/*
 @media (max-width: 600px) {
     nav ul li {
       display: block;
@@ -103,6 +105,7 @@ You can achieve this by using media queries to apply different styles based on t
       padding: 10px;
     }
   }
+*/
 /*
 Classes
 */  
