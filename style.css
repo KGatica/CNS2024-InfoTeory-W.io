@@ -41,7 +41,24 @@ img {
 /*
 Links
 */
-
+/* Unvisited link */
+a:link {
+    color: #267CB9;
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out; /* Smooth transition for color and text-decoration */
+  }
+  
+  /* Visited link */
+  a:visited {
+    color: #267CB9;
+  }
+  
+  /* Mouse over link */
+  a:hover {
+    color: #267CB9;
+    font-weight: bold;
+  }
+  
 /*
 If your webpage has a navigation menu, you'll want to style that too. 
 Here's an example that removes list styling and adds some hover effects for links.
